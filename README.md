@@ -1,8 +1,9 @@
-**Nifa Bulk Media Uploader
-**
+# Nifa Bulk Media Uploader
+
 A powerful WordPress plugin for bulk uploading images and videos from ZIP files with a beautiful glassmorphism UI.
 
 ![Nifa Bulk Media Uploader](https://github.com/nimafadaei/nifa-bulk-media-uploader/raw/main/assets/images/banner.png)
+
 
 🚀 Features
 
