@@ -1,86 +1,114 @@
-# **Nifa Bulk Media Uploader | A Revolution in WordPress Media Management**  
+**Nifa Bulk Media Uploader
+**
+A powerful WordPress plugin for bulk uploading images and videos from ZIP files with a beautiful glassmorphism UI.
 
-## **Bulk Upload Images and Videos with One Click**  
+![Nifa Bulk Media Uploader](https://github.com/nimafadaei/nifa-bulk-media-uploader/raw/main/assets/images/banner.png)
 
-Tired of uploading media files to WordPress one by one? Spending too much time adding images and videos to your media library? **Nifa Bulk Media Uploader** is a revolutionary solution to this challenge.  
+🚀 Features
 
-### **Media Management Like a Pro**  
+- **Bulk Upload**: Upload multiple images and videos at once using ZIP files
+- **Glassmorphism UI**: Modern and attractive user interface with glassmorphism styling
+- **Drag & Drop**: Easy drag and drop interface for ZIP file uploads
+- **Progress Tracking**: Real-time progress tracking for upload and processing
+- **Customizable Settings**: Configure maximum file size, allowed file types, and more
+- **Media Library Integration**: All uploaded files are added to the WordPress media library
+- **Batch Processing**: Efficient batch processing to handle large ZIP files
 
-The **Nifa Bulk Media Uploader** plugin offers a stunning, modern user interface, delivering a unique experience in WordPress media management. Designed with **Glassmorphism**, this plugin is not only functional but also visually appealing, aligning with the latest web design trends.  
+📋 Requirements
 
-## **Key Features**  
+- WordPress 5.0 or higher
+- PHP 7.2 or higher
+- ZipArchive PHP extension
 
-### 🚀 **Ultra-Fast Uploads**  
-Leveraging advanced technologies, your ZIP files are processed in the shortest possible time. The plugin’s powerful processing engine extracts and uploads files in bulk with maximum efficiency.  
+💾 Installation
 
-### 💎 **Glassmorphism UI**  
-Enjoy working with a sleek, modern, glass-like interface that is not only visually stunning but also intuitive and easy to use. Advanced visual effects, smooth animations, and a fully responsive design create an exceptional user experience.  
+Manual Installation
 
-### 🔄 **Smart File Processing**  
-The intelligent file recognition system automatically detects and categorizes different media types, ensuring they are correctly added to the WordPress media library. Unauthorized files are automatically filtered out.  
+1. Download the latest release ZIP file
+2. Go to your WordPress admin dashboard
+3. Navigate to Plugins > Add New
+4. Click "Upload Plugin"
+5. Select the downloaded ZIP file and click "Install Now"
+6. After installation, click "Activate"
 
-### 📊 **Live Progress Tracking**  
-A real-time progress tracker keeps you updated on the upload and processing status of your files. Never be left in the dark about your media uploads again.  
+From GitHub
 
-### ⚙️ **Fully Customizable Settings**  
-Gain complete control over the upload process with advanced, customizable settings. From file size limits to supported formats and media organization, everything is in your hands.  
+1. Clone this repository to your local machine
+2. Create a ZIP file of the plugin directory
+3. Follow the manual installation steps above
 
-### 🖱️ **Drag & Drop Interface**  
-Simply drag and drop your ZIP file into the upload area—no extra clicks or complicated steps required.  
+🔧 Usage
 
-## **Why Choose Nifa Bulk Media Uploader?**  
+1. After installation, you'll find a new menu item "Bulk Media Uploader" in your WordPress admin dashboard
+2. Click on this menu to access the main plugin page
+3. Drag and drop your ZIP file containing images and videos, or click to select a file
+4. Click "Upload and Process" to start the upload process
+5. Wait for the upload and processing to complete
+6. All media files will be added to your WordPress media library
 
-### ⏳ **Save Time**  
-What used to take hours can now be done in minutes. Focus on creating content instead of manually uploading files one by one.  
+⚙️ Settings
 
-### 📈 **Boost Productivity**  
-Eliminate repetitive and time-consuming upload processes, significantly improving efficiency. Manage hundreds of media files with just a few clicks.  
+Access the plugin settings by navigating to "Bulk Media Uploader" > "Settings" in your WordPress admin dashboard.
 
-### 🎨 **Exceptional User Experience**  
-Enjoy working with a modern, beautifully designed interface that is both easy and enjoyable to use. The Glassmorphism design is not just aesthetically pleasing but also highly functional and user-friendly.  
+**General Settings**
+- **Maximum ZIP File Size (MB)**: Set the maximum size of ZIP files that can be uploaded
+- **Auto-Organize Uploads**: Automatically organize uploads by date
 
-### 🎥 **Supports a Wide Range of Media Formats**  
-Compatible with various image and video formats, including JPG, PNG, GIF, WebP, MP4, MOV, and more.  
+File Settings
+- **Allowed File Types**: Select which file types can be uploaded through the bulk uploader
 
-## **User Reviews**  
+Advanced Settings
+- **Files Per Batch**: Number of files to process per batch
 
-> *“This plugin has transformed my workflow! I no longer spend hours uploading images.”* – **A Web Designer**  
+🔌 Supported File Types
 
-> *“Incredible UI and flawless performance. The best bulk upload plugin I’ve ever used.”* – **A WordPress Developer**  
+- Images: JPG, JPEG, PNG, GIF, WebP
+- Videos: MP4, MOV, AVI, WMV, WebM
 
-> *“The upload and processing speed is unbelievable. Managing hundreds of images is now effortless.”* – **A Website Administrator**  
+🛠️ Development
 
-## **Perfect For:**  
+Setup Development Environment
 
-- 🏢 **Web Design Agencies**  
-- 📸 **Photographers & Artists**  
-- 🛍️ **Online Stores with Large Product Catalogs**  
-- 📰 **News & Online Magazines**  
-- 🎬 **Video Content Creators**  
-- 👨‍💻 **WordPress Developers & Designers**  
+1. Clone this repository to your local WordPress development environment
+2. Navigate to the WordPress plugins directory: `cd /path/to/wordpress/wp-content/plugins/`
+3. Create a symbolic link to your cloned repository: `ln -s /path/to/cloned/repo nifa-bulk-media-uploader`
+4. Activate the plugin in your WordPress admin dashboard
 
-## **Technical Requirements:**  
+Build from Source
 
-- WordPress **5.0 or later**  
-- PHP **7.2 or later**  
-- ZipArchive support in PHP  
-- A modern browser with CSS3 support  
+1. Clone this repository
+2. Make your changes
+3. Create a ZIP file of the plugin directory for distribution
 
-## **Upgrade to the Pro Version**  
+📝 Changelog
 
-The **Pro version** of **Nifa Bulk Media Uploader** will soon be available with advanced features:  
+1.0.0 (Initial Release)
+- Initial release with core functionality
+- Bulk upload of images and videos from ZIP files
+- Glassmorphism UI
+- Customizable settings
 
-- 🔍 **Automatic Image Optimization**  
-- 🎞️ **Auto Thumbnail Generation for Videos**  
-- 🏷️ **AI-Powered Auto Tagging**  
-- 📁 **Smart File Organization**  
-- 🔄 **Cloud Storage Sync**  
+🤝 Contributing
 
----  
+Contributions are welcome! Please feel free to submit a Pull Request.
 
-### **Developer: Nima Fadaei**  
-🌐 [Website](https://nifaweb.site) | 💻 [GitHub](https://github.com/nimafadaei)  
+1. Fork the repository
+2. Create your feature branch: `git checkout -b feature/amazing-feature`
+3. Commit your changes: `git commit -m 'Add some amazing feature'`
+4. Push to the branch: `git push origin feature/amazing-feature`
+5. Open a Pull Request
 
----  
+📜 License
 
-**Nifa Bulk Media Uploader** – A Revolution in WordPress Media Management.  
+This project is licensed under the GPL v2 or later - see the [LICENSE](LICENSE) file for details.
+
+👨‍💻 Author
+
+- **Nima Fadaei**
+- Website: [Nifa Web](https://nifaweb.site)
+- GitHub: [nimafadaei](https://github.com/nimafadaei)
+
+🙏 Acknowledgments
+
+- Thanks to the WordPress community for inspiration and support
+- Special thanks to all contributors and users of this plugin
